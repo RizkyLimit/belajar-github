@@ -70,12 +70,12 @@ Copyright © RizkyLimit Inc. 2021
 #pragma warning disable 239, 214, 217 // Ignores warning for properly indented PAWN code, Pawn compiler v3.10.10
 
 // [ Server Informations ]
-#define SERVER_NAME			"Eternalgamers Roleplay"
-#define SERVER_NAME_SHORT	"EG:RP"
-#define MODE_VERSION		"v0.5a Pre-Alpha (Early)"
-#define DISCORD_LINK		"https://bit.ly/EG-RP"
-#define CHATLOG				"chatlogs/%s/%s.log"
-#define MAX_PLAYERS			10
+#define SERVER_NAME         "Eternalgamers Roleplay"
+#define SERVER_NAME_SHORT   "EG:RP"
+#define MODE_VERSION        "v0.5a Pre-Alpha (Early)"
+#define DISCORD_LINK        "https://bit.ly/EG-RP"
+#define CHATLOG             "chatlogs/%s/%s.log"
+#define MAX_PLAYERS         10
 
 // [ MySQL Informations ]
 #define MYSQL_HOSTNAME		"localhost"
@@ -84,18 +84,18 @@ Copyright © RizkyLimit Inc. 2021
 #define MYSQL_DATABASE		"egrp"
 
 // [ YSI-Includes Config ]
-#define CGEN_MEMORY 			90000
+#define CGEN_MEMORY         90000
 
 // [ Discord Config ]
-#define DCMD_PREFIX 			'!'
-#define EMAILTEMPLATE 			"mail/templates/%s.html"
-#define DC_MAIN_GUILD			"905123859861237812"
-#define DC_SAPD_GUILD			"922891672361254943"
-#define DC_SAFD_GUILD			"922892931482927164"
-#define DC_CHANNEL_REGIST		"905123859861237815"
-#define DC_CHANNEL_LOGREGIST	"918449579463159858"
-#define DC_ROLE_UNREGISTERED	"918386662084591696"
-#define DC_ROLE_REGISTERED		"918385200055091220"
+#define DCMD_PREFIX           '!'
+#define EMAILTEMPLATE         "mail/templates/%s.html"
+#define DC_MAIN_GUILD         "905123859861237812"
+#define DC_SAPD_GUILD         "922891672361254943"
+#define DC_SAFD_GUILD         "922892931482927164"
+#define DC_CHANNEL_REGIST     "905123859861237815"
+#define DC_CHANNEL_LOGREGIST  "918449579463159858"
+#define DC_ROLE_UNREGISTERED  "918386662084591696"
+#define DC_ROLE_REGISTERED    "918385200055091220"
 
 // [ Server Includes ]
 #include <a_samp> // This MUST be include for SA:MP.
