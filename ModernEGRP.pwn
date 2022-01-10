@@ -179,11 +179,11 @@ public OnGameModeInit()
 	// [ SA:MP Setting ]
 	SetGameModeText(MODE_VERSION);
 	DisableInteriorEnterExits();
-    UsePlayerPedAnims();
-    ShowPlayerMarkers(false);
-    ShowNameTags(true);
-    //ManualVehicleEngineAndLights();
-    SetNameTagDrawDistance(21.0);
+	UsePlayerPedAnims();
+	ShowPlayerMarkers(false);
+	ShowNameTags(true);
+	//ManualVehicleEngineAndLights();
+	SetNameTagDrawDistance(21.0);
 	EnableStuntBonusForAll(false);
 
 	// [ Streamer Setting ]
@@ -196,20 +196,20 @@ public OnGameModeInit()
 	print(" ");
 	print("	Server Name     : "SERVER_NAME);
 	print("	Mode Version    : "MODE_VERSION);
-    print("	Date Created    : Tuesday, 2 November 2021");
+	print("	Date Created    : Tuesday, 2 November 2021");
 	print("	Link Discord    : "DISCORD_LINK);
-    print(" ");
+	print(" ");
 	print("	Copyright: RizkyLimit Inc. 2021");
 	print(" ");
-    print("=======================[Console Log's]=====================");
+	print("=======================[Console Log's]=====================");
 	// [ MySQL Connecting ]
 	mysql_log(ALL);
-    SQL = mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE);
-    if(mysql_errno(SQL) != 0)
+	SQL = mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE);
+	if(mysql_errno(SQL) != 0)
 	{
-        printf("[MySQL] Couldn't connect to the database (%d).", mysql_errno(SQL));
-        SendRconCommand("exit");
-    }
+		printf("[MySQL] Couldn't connect to the database (%d).", mysql_errno(SQL));
+		SendRconCommand("exit");
+	}
 	else
 	{
 		printf("[MySQL] Connected to the database successfully (%d).", _:SQL);
