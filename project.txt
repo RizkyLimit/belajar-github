@@ -1,2 +1,0 @@
-project 2022 menyelesaikan EGRP dengan minimal sudah jalan public
-membuat beberapa feature yang bagus
