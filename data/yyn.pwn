@@ -1,1 +1,1 @@
-mantap dan maju
+mantap dan maju uanjan
