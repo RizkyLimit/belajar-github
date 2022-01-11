@@ -70,21 +70,21 @@ Copyright © RizkyLimit Inc. 2021
 #pragma warning disable 239, 214, 217 // Ignores warning for properly indented PAWN code, Pawn compiler v3.10.10
 
 // [ Server Informations ]
-#define SERVER_NAME         "Eternalgamers Roleplay"
-#define SERVER_NAME_SHORT   "EG:RP"
-#define MODE_VERSION        "v0.5a Pre-Alpha (Early)"
-#define DISCORD_LINK        "https://bit.ly/EG-RP"
-#define CHATLOG             "chatlogs/%s/%s.log"
-#define MAX_PLAYERS         10
+#define SERVER_NAME           "Eternalgamers Roleplay"
+#define SERVER_NAME_SHORT     "EG:RP"
+#define MODE_VERSION          "v0.5a Pre-Alpha (Early)"
+#define DISCORD_LINK          "https://bit.ly/EG-RP"
+#define CHATLOG               "chatlogs/%s/%s.log"
+#define MAX_PLAYERS           10
 
 // [ MySQL Informations ]
-#define MYSQL_HOSTNAME		"localhost"
-#define MYSQL_USERNAME		"empty"
-#define MYSQL_PASSWORD		"00000000"
-#define MYSQL_DATABASE		"egrp"
+#define MYSQL_HOSTNAME        "localhost"
+#define MYSQL_USERNAME        "empty"
+#define MYSQL_PASSWORD        "00000000"
+#define MYSQL_DATABASE        "egrp"
 
 // [ YSI-Includes Config ]
-#define CGEN_MEMORY         90000
+#define CGEN_MEMORY           90000
 
 // [ Discord Config ]
 #define DCMD_PREFIX           '!'
